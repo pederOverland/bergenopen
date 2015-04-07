@@ -1,0 +1,202 @@
+[{
+	"start": "2015-04-09T11:00",
+	"end": "2015-04-09T12:05",
+	"id": 1,
+	"group": "AG-C",
+	"gender": "Boys",
+	"height": "1m"
+}, {
+	"start": "2015-04-09T12:20",
+	"end": "2015-04-09T13:20",
+	"id": 2,
+	"group": "AG-C",
+	"gender": "Girls",
+	"height": "3m"
+}, {
+	"start": "2015-04-09T13:35",
+	"end": "2015-04-09T14:35",
+	"id": 3,
+	"group": "AG-B",
+	"gender": "Boys",
+	"height": "Platform"
+}, {
+	"start": "2015-04-09T14:50",
+	"end": "2015-04-09T16:35",
+	"id": 4,
+	"group": "AG-B",
+	"gender": "Girls",
+	"height": "1m"
+}, {
+	"start": "2015-04-09T16:50",
+	"end": "2015-04-09T17:50",
+	"id": 5,
+	"group": "AG-A",
+	"gender": "Boys",
+	"height": "3m"
+}, {
+	"start": "2015-04-09T18:05",
+	"end": "2015-04-09T18:45",
+	"id": 6,
+	"group": "AG-A",
+	"gender": "Girls",
+	"height": "Platform"
+}, {
+	"start": "2015-04-10T10:00",
+	"end": "2015-04-10T11:10",
+	"id": 7,
+	"group": "AG-B",
+	"gender": "Boys",
+	"height": "1m"
+}, {
+	"start": "2015-04-10T11:25",
+	"end": "2015-04-10T13:05",
+	"id": 8,
+	"group": "AG-B",
+	"gender": "Girls",
+	"height": "3m"
+}, {
+	"start": "2015-04-10T13:20",
+	"end": "2015-04-10T14:05",
+	"id": 9,
+	"group": "AG-C",
+	"gender": "Girls",
+	"height": "Platform"
+}, {
+	"start": "2015-04-10T14:10",
+	"end": "2015-04-10T14:45",
+	"id": 0,
+	"name": "Opening Ceremony"
+}, {
+	"start": "2015-04-10T14:45",
+	"end": "2015-04-10T15:35",
+	"id": 10,
+	"group": "AG-C",
+	"gender": "Boys",
+	"height": "3m"
+}, {
+	"start": "2015-04-10T15:50",
+	"end": "2015-04-10T16:20",
+	"id": 11,
+	"group": "Sync",
+	"gender": "Men",
+	"height": "3m"
+}, {
+	"start": "2015-04-10T16:35",
+	"end": "2015-04-10T17:10",
+	"id": 12,
+	"group": "Sync",
+	"gender": "Women",
+	"height": "3m"
+}, {
+	"start": "2015-04-10T17:25",
+	"end": "2015-04-10T17:45",
+	"id": 13,
+	"group": "Open",
+	"gender": "Men",
+	"height": "1m"
+}, {
+	"start": "2015-04-10T18:00",
+	"end": "2015-04-10T18:15",
+	"id": 14,
+	"group": "Open",
+	"gender": "Women",
+	"height": "3m"
+}, {
+	"start": "2015-04-11T10:00",
+	"end": "2015-04-11T11:20",
+	"id": 15,
+	"group": "AG-A",
+	"gender": "Girls",
+	"height": "3m"
+}, {
+	"start": "2015-04-11T11:35",
+	"end": "2015-04-11T12:40",
+	"id": 16,
+	"group": "AG-A",
+	"gender": "Boys",
+	"height": "1m"
+}, {
+	"start": "2015-04-11T12:55",
+	"end": "2015-04-11T13:35",
+	"id": 17,
+	"group": "AG-C",
+	"gender": "Boys",
+	"height": "Platform"
+}, {
+	"start": "2015-04-11T13:50",
+	"end": "2015-04-11T15:10",
+	"id": 18,
+	"group": "AG-C",
+	"gender": "Girls",
+	"height": "1m"
+}, {
+	"start": "2015-04-11T15:25",
+	"end": "2015-04-11T15:45",
+	"id": 19,
+	"group": "Open",
+	"gender": "Women",
+	"height": "Platform"
+}, {
+	"start": "2015-04-11T16:00",
+	"end": "2015-04-11T16:20",
+	"id": 20,
+	"group": "Open",
+	"gender": "Men",
+	"height": "3m"
+}, {
+	"start": "2015-04-11T16:35",
+	"end": "2015-04-11T17:00",
+	"id": 21,
+	"group": "Sync",
+	"gender": "Women",
+	"height": "10m"
+}, {
+	"start": "2015-04-11T17:15",
+	"end": "2015-04-11T17:40",
+	"id": 22,
+	"group": "Sync",
+	"gender": "Men",
+	"height": "10m"
+}, {
+	"start": "2015-04-12T09:30",
+	"end": "2015-04-12T11:00",
+	"id": 23,
+	"group": "AG-A",
+	"gender": "Girls",
+	"height": "1m"
+}, {
+	"start": "2015-04-12T11:10",
+	"end": "2015-04-12T11:30",
+	"id": 24,
+	"group": "AG-A",
+	"gender": "Boys",
+	"height": "Platform"
+}, {
+	"start": "2015-04-12T11:40",
+	"end": "2015-04-12T12:45",
+	"id": 25,
+	"group": "AG-B",
+	"gender": "Boys",
+	"height": "3m"
+}, {
+	"start": "2015-04-12T12:55",
+	"end": "2015-04-12T14:35",
+	"id": 26,
+	"group": "AG-B",
+	"gender": "Girls",
+	"height": "Platform"
+}, {
+	"start": "2015-04-12T14:45",
+	"end": "2015-04-12T15:00",
+	"id": 27,
+	"group": "Open",
+	"gender": "Women",
+	"height": "1m"
+}, {
+	"start": "2015-04-12T15:10",
+	"end": "2015-04-12T15:35",
+	"id": 28,
+	"group": "Open",
+	"gender": "Men",
+	"height": "Platform"
+}]
