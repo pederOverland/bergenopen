@@ -1,4 +1,16 @@
 CACHE MANIFEST
+#rev 2
+#Images:
+/favicon.png
+/allers.png
+/bsk.png
+/gtravel.png
+/rafi.png
+/rubb.png
 /bergenopen.js
 /bergenopen.css
 /partials/program.html
+/partials/contact.html
+/partials/eventSpot.html
+/partials/day.html
+/partials/clubs.html

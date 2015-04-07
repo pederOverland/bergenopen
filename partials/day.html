@@ -1,0 +1,32 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<div class="panel-title" ng-bind="day"></div>
+	</div>
+	<div class="panel-body" ng-if="false">
+	<div class="event" ng-repeat="event in events">
+			<span>{{event.start|moment:'HH:mm'}} - {{event.end|moment:'HH:mm'}} -- </span>
+			<span>{{event.group}}, {{event.gender}}: {{event.height}} </span>
+		</div>
+	</div>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Time</th>
+				<th>Group</th>
+				<th>Gender</th>
+				<th>Height</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="event in events">
+				<td ng-bind="event.id || ''"></td>
+				<td>{{event.start|moment:'HH:mm'}} - {{event.end|moment:'HH:mm'}}</td>
+				<td ng-bind="event.group" ng-if="event.group"></td>
+				<td ng-bind="event.gender" ng-if="event.group"></td>
+				<td ng-bind="event.height" ng-if="event.group"></td>
+				<td ng-bind="event.name" colspan="3" ng-if="event.name"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>

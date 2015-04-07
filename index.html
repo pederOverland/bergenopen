@@ -5,11 +5,60 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bergen Open 2015</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 	<link rel="stylesheet" href="bergenopen.css">
 </head>
 <body ng-app="bo">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#/">Bergen Open 2015</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#/">Program <span class="sr-only">(current)</span></a></li>
+					<li><a href="#/contact">Contact</a></li>
+					<li><a href="#/clubs">Clubs & Countries</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 	<div class="container">
-		<div ng-view></div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-9">
+				<div ng-view></div>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<div class="panel panel-primary sponsors">
+					<div class="panel-heading">
+						<div class="panel-title">
+							Sponsors
+						</div>
+					</div>
+					<div class="panel-body">
+						<a href="http://www.bergen-stupeklubb.no/" target="_blank">
+							<img src="bsk.png" height="80" width="120">
+						</a>
+						<a href="http://www.gtravel.no/" target="_blank">
+							<img src="gtravel.png" height="80" width="120">
+						</a>
+						<a href="http://www.zurhaarrubb.no/" target="_blank">
+							<img src="rubb.png" height="80" width="120">
+						</a>
+						<img src="rafi.png" height="80" width="120">
+						<a href="http://allersinvest.no/" target="_blank">
+							<img src="allers.png" height="80" width="120">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="bergenopen.js"></script>
 </body>

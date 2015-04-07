@@ -6547,3 +6547,15 @@ button.close {
     display: none !important;
   }
 }
+.event-spot .panel-body {
+  text-align: center;
+}
+.event-spot .panel-body .huge {
+  font-size: 150%;
+}
+.sponsors .panel-body {
+  text-align: center;
+}
+.sponsors .panel-body img {
+  margin-bottom: 10px;
+}

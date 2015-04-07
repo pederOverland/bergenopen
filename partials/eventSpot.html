@@ -1,0 +1,22 @@
+<div class="panel panel-primary event-spot">
+	<div class="panel-heading">
+		<div class="panel-title" ng-transclude>
+		</div>
+	</div>
+	<div class="panel-body">
+		<span ng-if="event.group">
+			<span>Group:</span>
+			<br />
+			<span class="huge">{{event.group}}, {{event.gender}}</span>
+			<br />
+			<span>Height:</span>
+			<br />
+			<span class="huge">{{event.height}}</span>
+			<br />
+		</span>
+		<span ng-if="event.name" class="huge">{{event.name}}<br /></span>
+		<span>Time:</span>
+		<br />
+		<span class="huge">{{event.start | moment:'HH:mm'}} - {{event.end | moment:'HH:mm'}}</span>
+	</div>
+</div>

@@ -1,5 +1,12 @@
-<h1>Program</h1>
-Current Event:
-{{currentevent}}
-Next Event:
-{{nextevent}}
+<div event-spot="currentevent" ng-if="currentevent">
+	Current event
+</div>
+<div event-spot="nextevent" ng-if="nextevent">
+	Next event
+</div>
+<div class="days">
+	<div day="'Thursday'" events="days.Thursday"></div>
+	<div day="'Friday'" events="days.Friday"></div>
+	<div day="'Saturday'" events="days.Saturday"></div>
+	<div day="'Sunday'" events="days.Sunday"></div>
+</div>
