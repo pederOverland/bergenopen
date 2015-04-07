@@ -6,7 +6,10 @@ require('bootstrap');
 
 var app = angular.module('bo', [require('angular-route')]);
 
-app.run(['$rootScope', '$interval', function($rootScope, $interval) {
+app.run(['$rootScope', '$interval', '$location', function($rootScope, $interval, $location) {
+	$rootScope.active = function(target) {
+		return target == $location.path();
+	};
 	$rootScope.$on('$routeChangeStart', function() {
 		if($rootScope.heartbeat){
 			$interval.cancel($rootScope.heartbeat);
