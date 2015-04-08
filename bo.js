@@ -6,10 +6,17 @@ require('bootstrap');
 
 var app = angular.module('bo', [require('angular-route')]);
 
-app.run(['$rootScope', '$interval', '$location', function($rootScope, $interval, $location) {
+app.run(['$rootScope', '$interval', '$location', '$timeout', function($rootScope, $interval, $location, $timeout) {
 	$rootScope.active = function(target) {
 		return target == $location.path();
 	};
+	jQuery(window.applicationCache).bind('cached', function() {
+		$rootScope.showCached = true;
+		$rootScope.$apply();
+		$timeout(function() {
+			$rootScope.showCached = false;
+		}, 5000);
+	});
 	$rootScope.$on('$routeChangeStart', function() {
 		if($rootScope.heartbeat){
 			$interval.cancel($rootScope.heartbeat);
@@ -104,6 +111,10 @@ app.config(['$routeProvider',
 		}).
 		when('/clubs', {
 			templateUrl: 'partials/clubs.html',
+			controller: 'defaultCtrl'
+		}).
+		when('/meals', {
+			templateUrl: 'partials/meals.html',
 			controller: 'defaultCtrl'
 		}).
 		otherwise({
