@@ -34,6 +34,9 @@ app.controller({
 		});
 		$scope.events = events;
 		$scope.days = {
+			'Wednesday': _.filter(events, function(ev) {
+				return ev.start.format('dddd') === 'Wednesday';
+			}),
 			'Thursday': _.filter(events, function(ev) {
 				return ev.start.format('dddd') === 'Thursday';
 			}),
@@ -98,8 +101,9 @@ app.directive('eventSpot', [function() {
 
 app.value('events', require('./events.json'));
 
-app.config(['$routeProvider',
-	function($routeProvider) {
+app.config(['$routeProvider','$locationProvider',
+	function($routeProvider, $locationProvider) {
+		$locationProvider.hashPrefix('');
 		$routeProvider.
 		when('/', {
 			templateUrl: 'partials/program.html',
